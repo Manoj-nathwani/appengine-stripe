@@ -3,7 +3,6 @@ import jinja2
 import webapp2
 import json
 import stripe
-import urllib2
 
 JINJA_ENVIRONMENT = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
